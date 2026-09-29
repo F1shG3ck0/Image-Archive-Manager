@@ -312,4 +312,4 @@ by F1shG3ck0
 
 ## Academic Note
 
-This project was completed as part of the CSC1029 Object-Oriented Programming module at Queen's University Belfast and is included in this repository to demonstrate object-oriented software development, problem-solving, and Java programming skills. 【1-6e5b6f】
+This project was completed as part of the CSC1029 Object-Oriented Programming module at Queen's University Belfast and is included in this repository to demonstrate object-oriented software development, problem-solving, and Java programming skills.
