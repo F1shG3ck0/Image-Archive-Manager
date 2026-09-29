@@ -9,13 +9,15 @@ The application manages collections of photographic images through a menu-driven
 ---
 
 ## Project Status
- 
-[X] Completed Coursework Project
- 
+
+
+Completed Coursework Project
+
+ 
 Completed as part of the CSC1029 Object-Oriented Programming module at Queen's University Belfast.
 
 Academic year: 2025-26
-``
+
 
 ## Project Context
 
@@ -166,66 +168,37 @@ Main application controller responsible for:
 
 ---
 
-## How to Run
+## Running the Application
  
-### Prerequisites
+The project can be opened and run in any Java IDE that supports Java 17 or later, including:
  
-Before running the project, ensure the following software is installed:
+- Visual Studio Code
+- Eclipse
+- IntelliJ IDEA
  
-- Java JDK 17 or later
-- Visual Studio Code, Eclipse, or another Java IDE
-- Git (optional, for cloning the repository)
+### Part 1
  
-The project also uses the custom library:
+Run the `QUBImages` class located in:
  
 ```text
-lib/CSC1029Console.jar
+src/part01/QUBImages.java
 ```
  
-which is included in this repository.
+This version uses a standard terminal-based interface.
  
-### Clone the Repository
+### Part 2
  
-```bash
-git clone https://github.com/yourusername/Image-Archive-Manager.git
-cd Image-Archive-Manager
+Run the `QUBMediaImages` class located in:
+ 
+```text
+src/part02/QUBMediaImages.java
 ```
  
-### Running Part 1 - Terminal Version
+This version uses the CSC1029 Console library to provide enhanced features including image display, colour customisation, and an improved user interface.
  
-Part 1 uses a standard terminal-based interface and does not require the custom console library.
+### Images
  
-Compile:
- 
-```bash
-javac src/part01/*.java
-```
- 
-Run:
- 
-```bash
-java -cp src part01.QUBImages
-```
- 
-### Running Part 2 - Enhanced Co*sole Version
- 
-Part * uses the CSC1029 Console library *o provide image display, colour cu*tomisation, and enhanced user inte*action.
- 
-Compile:
- 
-```bash*javac -cp "lib/*" src/part02/*.java
-```
- 
-Run (Windows):
- 
-```bash*java*-cp "src;lib/*" part02.QUBMediaIma*es
-```
- 
-Run (macOS/Linux):
- 
-```bas*
-java -cp "*rc:lib/*" part02.QUBMediaImages
-*``
+Sample images used by the application are included in the `Images` directory.
 
 ---
 
