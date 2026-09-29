@@ -277,19 +277,19 @@ Images/
 
 ### Main Menu
 
-*(Add screenshot here)*
+![Main Menu Screen](/Screenshots/Main_Menu.png)
 
 ### Search Menu
 
-*(Add screenshot here)*
+![Search menu screen](/Screenshots/Search_Menu.png)
 
 ### Album Navigation
 
-*(Add screenshot here)*
+![Album Navigation Screen](/Screenshots/Album_Nav.png)
 
 ### Image Display Interface
 
-*(Add screenshot here)*
+![Image Display Interface](/Screenshots/Image_Display.png)
 
 ---
 
