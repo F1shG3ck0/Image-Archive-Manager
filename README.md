@@ -8,6 +8,15 @@ The application manages collections of photographic images through a menu-driven
 
 ---
 
+## Project Status
+ 
+[X] Completed Coursework Project
+ 
+Completed as part of the CSC1029 Object-Oriented Programming module at Queen's University Belfast.
+
+Academic year: 2025-26
+``
+
 ## Project Context
 
 The project was completed individually as coursework for the Object-Oriented Programming module.
@@ -26,7 +35,7 @@ The assignment required the development of:
 ### Image Management
 
 - Create and store image records.
-- Automaticaly assign unique image identifiers.
+- Automatically assign unique image identifiers.
 - Manage photographic images across multiple genres.
 - Store image metadata including title, description, date, genre, and thumbnail reference.
 
@@ -44,7 +53,7 @@ Search results are returned as image collections that can be browsed interactive
 ### Album Navigation
 
 - Browse image collections sequentially.
-- Move forwards and bacwards through albums.
+- Move forwards and backwards through albums.
 - View image details individually.
 - Images maintained in date order. 
 
@@ -52,7 +61,7 @@ Search results are returned as image collections that can be browsed interactive
 
 Using the custom Console library, the application includes:
 
-- Colur-coded interfaces.
+- Colour-coded interfaces.
 - Dynamic console resizing.
 - Image thumbnail display.
 - Enhanced menu navigation.
@@ -61,7 +70,7 @@ Using the custom Console library, the application includes:
 ### Validation and Error Handling
 
 - Integer validation.
-- Date validation using `LocaDate`.
+- Date validation using `LocalDate`.
 - File name validation.
 - Genre validation using enumerations.
 - Exception handling throughout the application.
@@ -131,13 +140,92 @@ Main application controller responsible for:
 
 - Java
 - Object-Oriented Programming (OOP)
-- Java Collectios
+- Java Collections
 - LocalDate API
 - Exception Handling
 - Custom Console Library (CSC1029Console.jar)
 - Eclipse IDE
 - Git
 - GitHub
+
+---
+
+## Skills Demonstrated
+ 
+- Object-Oriented Programming (OOP)
+- Encapsulation
+- Inheritance
+- Enumerations
+- Exception Handling
+- Collections and Data Management
+- Searching and Filtering Algorithms
+- User Input Validation
+- Software Design Principles
+- Version Control with Git
+- Java Application Development
+
+---
+
+## How to Run
+ 
+### Prerequisites
+ 
+Before running the project, ensure the following software is installed:
+ 
+- Java JDK 17 or later
+- Visual Studio Code, Eclipse, or another Java IDE
+- Git (optional, for cloning the repository)
+ 
+The project also uses the custom library:
+ 
+```text
+lib/CSC1029Console.jar
+```
+ 
+which is included in this repository.
+ 
+### Clone the Repository
+ 
+```bash
+git clone https://github.com/yourusername/Image-Archive-Manager.git
+cd Image-Archive-Manager
+```
+ 
+### Running Part 1 - Terminal Version
+ 
+Part 1 uses a standard terminal-based interface and does not require the custom console library.
+ 
+Compile:
+ 
+```bash
+javac src/part01/*.java
+```
+ 
+Run:
+ 
+```bash
+java -cp src part01.QUBImages
+```
+ 
+### Running Part 2 - Enhanced Co*sole Version
+ 
+Part * uses the CSC1029 Console library *o provide image display, colour cu*tomisation, and enhanced user inte*action.
+ 
+Compile:
+ 
+```bash*javac -cp "lib/*" src/part02/*.java
+```
+ 
+Run (Windows):
+ 
+```bash*java*-cp "src;lib/*" part02.QUBMediaIma*es
+```
+ 
+Run (macOS/Linux):
+ 
+```bas*
+java -cp "*rc:lib/*" part02.QUBMediaImages
+*``
 
 ---
 
@@ -163,7 +251,7 @@ Key areas developed include:
 
 Through this project I developed experience in:
 
-- Objet-oriented programming
+- Object-oriented programming
 - Classes and objects
 - Encapsulation
 - Constructors
@@ -194,6 +282,9 @@ src/
 │   ├── Menu.java
 │   └── QUBMediaImages.java
 │
+lib/
+├── CSC1029Console.jar
+|
 Images/
 ├── Andromeda.png
 ├── Apples.png
